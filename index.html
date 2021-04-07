@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div id="players">
+            <div class="mt-5">
+                <input class="form-control players-info col-12 text-capitalize" type="text" id="player#1" placeholder="Player #1">
+                <button type="button" class="btn btn-success" id="addPlayers">+</button>
+                <div class="row" id="nPlayers">
+                </div>
+                <button class="btn mx-auto" id="enter">Let's play</button>
+            </div>
+        </div>
+        <div id="game">
+            <div class="row">
+                <div class="col-4">
+                    <img src="#" class="card" id="memo#1" onclick="compaire('memo#1')">
+                    </img>
+                </div>
+                <div class="col-4">
+                    <img src="#" class="card" id="memo#2" onclick="compaire('memo#2')">
+                    </img>
+                </div>
+                <div class="col-4">
+                    <img src="#" class="card" id="memo#3" onclick="compaire('memo#3')">
+                    </img>
+                </div>
+            </div>
+    
+            <div class="row mt-4 mb-4">
+                <div class="col-4">
+                    <img src="#" class="card" id="memo#4" onclick="compaire('memo#4')">
+                    </img>
+                </div>
+                <div class="col-4">
+                    <div class="card text-center">
+                        <div id="listPlayers">
+                        </div>
+                        <button class="btn mx-auto" id="start">Start</button>
+                        <button class="btn mx-auto playAgain" id="playAgain">Play again</button>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="#" class="card" id="memo#5" onclick="compaire('memo#5')">
+                    </img>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <img src="#" class="card" id="memo#6" onclick="compaire('memo#6')">
+                    </img>
+                </div>
+                <div class="col-4">
+                    <img src="#" class="card" id="memo#7" onclick="compaire('memo#7')">
+                    </img>
+                </div>
+                <div class="col-4">
+                    <img src="#" class="card" id="memo#8" onclick="compaire('memo#8')">
+                    </img>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+#players{
+    transform: translateY(-50%) translateX(50%);
+    box-shadow: #aac3ea 1px 1px 5px;
+    background-color: #2174CC;
+    position: absolute;
+    border-radius: 20px;
+    min-height: 20em;
+    width: 30em;
+    right: 50%;
+    top: 50%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.322);
+}
+
+.mt-5 {
+    min-height: 20em;
+    width: 30em;
+    position: absolute;
+    top: -15%;
+}
+
+.players-info {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: start;
+    width: 21.25em;
+    height: 3em;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.players-info:focus, .players-info:active{
+    box-shadow: none;
+}
+
+#addPlayers {
+    position: absolute;
+    width: 3em;
+    height: 3em;
+    right: 9%;
+    top: 10%;
+
+}
+
+#addPlayers:hover {
+    background: rgb(0, 255, 64);
+    color: white;
+}
+
+#game {
+    display: none;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+}
+
+.card {
+    height: 13em;
+    width: 300px;
+    transform-style: preserve-3d;
+    transition-duration: 1s;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.322);
+    border-radius: 15px;
+}
+
+.playAgain , #enter{
+    transform: translateX(-50%);
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+}
+
+#enter {
+    background:black;
+    color: white;
+}
+
+#enter:hover {
+    background: white;
+    color: black;
+}
+
+#start {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#start, #playAgain {
+    color: white;
+    background: black;
+    border-radius: 5px;
+}
+
+#start:hover, #playAgain:hover {
+    color: black;
+    background: white;
+    border: 1px solid black;
+}
